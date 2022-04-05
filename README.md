@@ -1,5 +1,5 @@
 # JetBrains_OpenSpace
-first project of learning HTML, CSS, JS
+first project of learning HTML, CSS(flex), JS(animation,value, disable)
 
 start the rocket after check all procedures
 
