@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leo Open Space</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    Hello, World! Let's start
+
+        <div class="space">
+      <!--  <img alt="space" src="img/space.png"> -->
+        <div class="planet-area">
+            <img alt="planet" class="planet" src="img/mars.png">
+            <img alt="rocket" class="rocket" id="rocket" src="img/rocket.png">
+        </div>
+        <div class="control-panel__inner">
+            <div class="control-panel">
+                <div class="login">
+                    <!-- checkPassword() by button -->
+                    <input type="password" class="password" id="password" value="Enter the password">
+                    <input type="button" class="button button_ok" value="ok" onclick=checkPassword()>
+                </div>
+                <div class="check-buttons">
+                    <input type="checkbox" class="checkbox chek_1" id="check_1" disabled onclick=checkStartReady()>
+                    <input type="checkbox" class="checkbox chek_2" id="check_2" disabled onclick=checkStartReady()>
+                    <input type="checkbox" class="checkbox chek_3" id="check_3" disabled onclick=checkStartReady()>
+                    <input type="checkbox" class="checkbox chek_4" id="check_4" disabled onclick=checkStartReady()>
+                    <input type="checkbox" class="checkbox chek_5" id="check_5" disabled onclick=checkStartReady()>
+                    <input type="checkbox" class="checkbox chek_6" id="check_6" disabled onclick=checkStartReady()>
+
+                </div>
+
+                <div class="levers">
+                    <input type="range" min="0" max="100" value="20" step="10" class="range range_1" disabled onclick=checkStartReady()>
+                    <input type="range" min="0" max="100" value="20" step="10" class="range range_2" disabled onclick=checkStartReady()>
+                    <input type="range" min="0" max="100" value="20" step="10" class="range range_3" disabled onclick=checkStartReady()>
+                    <input type="range" min="0" max="100" value="50" step="10" class="range range_4" disabled onclick=checkStartReady()>
+                    <input type="range" min="0" max="100" value="50" step="10" class="range range_5" disabled onclick=checkStartReady()>
+                </div>
+                <input type="button" class="button button_launch" value="launch" disabled onclick=startRocket()>
+               <!-- <p>
+                    <script>
+                        document.write(otherText);
+                    </script></p> -->
+             </div>
+        </div>
+    </div>
+    <script src="js/main.js">
+        <!-- setAttrDisabled();-->      // не работает
+    </script>
+</body>
+</html>
